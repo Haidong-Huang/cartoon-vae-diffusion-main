@@ -6,13 +6,6 @@ Code is implemented using **Python 3.10** and tested on **Ubuntu** OS.
 [Cartoon Set](https://google.github.io/cartoonset/) (10k) is used for training both the VAE and diffusion models.  
 More implementation details can be found at this [blog post](https://lihanlian.github.io/posts/blog8).
 
-**VAE Result**
-
-<p align="center">
-  <img alt="VAE Sample Grid" src="runs/vae/sample_grid.png" width="50%" />
-</p>
-<p align="center">5x5 VAE sample grid</p>
-
 **DDPM Result**
 
 <p align="center">
@@ -20,6 +13,12 @@ More implementation details can be found at this [blog post](https://lihanlian.g
 </p>
 <p align="center">5x5 DDPM sample grid</p>
 
+**VAE Result**
+
+<p align="center">
+  <img alt="VAE Sample Grid" src="runs/vae/sample_grid.png" width="50%" />
+</p>
+<p align="center">5x5 VAE sample grid</p>
 ---
 
 ## Run Locally (Windows)
