@@ -1,0 +1,14 @@
+# environment.yml 内容示例（适配你的作业环境）
+name: cartoon-vae-diffusion-model  # 环境名，和之前的conda环境名一致
+channels:  # 依赖下载源
+  - defaults
+dependencies:  # 环境依赖包
+  - python=3.11
+  - numpy
+  - torch
+  - torchvision
+  - torchaudio
+  - matplotlib
+  - tqdm
+  - pyyaml
+  - ipykernel
